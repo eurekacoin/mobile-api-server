@@ -1,13 +1,13 @@
-let qtumcore = require('qtumcore-lib');
-let _ = qtumcore.deps._;
-let PrivateKey = qtumcore.PrivateKey;
-let PublicKey = qtumcore.PublicKey;
-let Address = qtumcore.Address;
-let BufferWriter = qtumcore.encoding.BufferWriter;
-let ECDSA = qtumcore.crypto.ECDSA;
-let Signature = qtumcore.crypto.Signature;
-let sha256sha256 = qtumcore.crypto.Hash.sha256sha256;
-let $ = qtumcore.util.preconditions;
+let eurekacoincore = require('eurekacoincore-lib');
+let _ = eurekacoincore.deps._;
+let PrivateKey = eurekacoincore.PrivateKey;
+let PublicKey = eurekacoincore.PublicKey;
+let Address = eurekacoincore.Address;
+let BufferWriter = eurekacoincore.encoding.BufferWriter;
+let ECDSA = eurekacoincore.crypto.ECDSA;
+let Signature = eurekacoincore.crypto.Signature;
+let sha256sha256 = eurekacoincore.crypto.Hash.sha256sha256;
+let $ = eurekacoincore.util.preconditions;
 
 class MessageCryptographer {
 
